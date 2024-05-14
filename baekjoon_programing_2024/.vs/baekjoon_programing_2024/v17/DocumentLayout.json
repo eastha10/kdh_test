@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kimdo\\Desktop\\C\uC5B8\uC5B4\\baekjoon_programing_2024\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C8601C-BD82-4E4D-A75B-C164E80723D9}|baekjoon_programing_2024\\baekjoon_programing_2024.vcxproj|C:\\Users\\kimdo\\Desktop\\C\uC5B8\uC5B4\\baekjoon_programing_2024\\baekjoon_programing_2024\\example1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F5C8601C-BD82-4E4D-A75B-C164E80723D9}|baekjoon_programing_2024\\baekjoon_programing_2024.vcxproj|solutionrelative:baekjoon_programing_2024\\example1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "example1.c",
+              "DocumentMoniker": "C:\\Users\\kimdo\\Desktop\\C\uC5B8\uC5B4\\baekjoon_programing_2024\\baekjoon_programing_2024\\example1.c",
+              "RelativeDocumentMoniker": "baekjoon_programing_2024\\example1.c",
+              "ToolTip": "C:\\Users\\kimdo\\Desktop\\C\uC5B8\uC5B4\\baekjoon_programing_2024\\baekjoon_programing_2024\\example1.c",
+              "RelativeToolTip": "baekjoon_programing_2024\\example1.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwDcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-05-14T09:41:26.393Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
