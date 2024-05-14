@@ -38,7 +38,31 @@ void play(void)
 
 void com(void)
 {
-
+	int x, y;
+	printf("원하는 칸의 좌표를 입력하시오: ");
+	scanf("%d %d", &x, &y);
+	if (board[x][y] < 70)
+	{
+		board[x][y] = 'O';
+		for (y = 0; y < 5; y++)
+		{
+			for (x = 0; x < 5; x++)
+			{
+				printf("%c", board[x][y]);
+			}
+			printf("\n");
+		}
+	}
+	else if (board[x][y] = 79)
+	{
+		printf("당신이 이미 선택한 구역입니다.\n");
+		play();
+	}
+	else
+	{
+		printf("상대가 이미 선택한 구역입니다.\n");
+		play();
+	}
 }
 
 void winplay()
