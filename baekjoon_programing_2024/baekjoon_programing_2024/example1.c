@@ -15,14 +15,6 @@ void play(void)
 	if (board[x][y] < 70)
 	{
 		board[x][y] = 'O';
-		for (y = 0; y < 5; y++)
-		{
-			for (x = 0; x < 5; x++)
-			{
-				printf("%c", board[x][y]);
-			}
-			printf("\n");
-		}
 	}
 	else if (board[x][y] = 79)
 	{
@@ -35,54 +27,109 @@ void play(void)
 		play();
 	}
 }
-
-void com(void)
+void win_1()
 {
-	int x, y;
-	printf("원하는 칸의 좌표를 입력하시오: ");
-	scanf("%d %d", &x, &y);
-	if (board[x][y] < 70)
+	int sum = 0;
+	int score;
+	int wc = 0;
+	for (score = 0; score < 5; score++)
 	{
-		board[x][y] = 'O';
-		for (y = 0; y < 5; y++)
-		{
-			for (x = 0; x < 5; x++)
-			{
-				printf("%c", board[x][y]);
-			}
-			printf("\n");
-		}
+		sum = sum + board[score][wc];
 	}
-	else if (board[x][y] = 79)
+	if (sum / 5 == 79)
 	{
-		printf("당신이 이미 선택한 구역입니다.\n");
-		play();
+		printf("당신의 승리 입니다.");
+		end = 1;
+	}
+
+	else if (sum / 5 == 88)
+	{
+		printf("컴퓨터의 승리입니다.");
+		end = 1;
 	}
 	else
 	{
-		printf("상대가 이미 선택한 구역입니다.\n");
-		play();
+		wc++;
+		win_1();
 	}
 }
 
-void winplay()
+void win_2()
 {
 	int sum = 0;
 	int score;
+	int wc = 0;
 	for (score = 0; score < 5; score++)
 	{
-		sum = sum + board[score][0];
+		sum = sum + board[wc][score];
+	}
+	if (sum / 5 == 79)
+	{
+		printf("당신의 승리 입니다.");
+		end = 1;
+	}
+
+	else if (sum / 5 == 88)
+	{
+		printf("컴퓨터의 승리입니다.");
+		end = 1;
+	}
+	else
+	{
+		wc++;
+		win_2();
 	}
 }
 
-void wincom()
+void win_3()
 {
 	int sum = 0;
-	int score;
-	for (score = 0; score < 5; score++)
+	int wc = 0;
+	sum = board[0][0] + board[1][1] + board[2][2] + board[3][3] + board[4][4];
+	if (sum / 5 == 79)
 	{
-		sum = sum + board[score][0];
+		printf("당신의 승리 입니다.");
+		end = 1;
 	}
+
+	else if (sum / 5 == 88)
+	{
+		printf("컴퓨터의 승리입니다.");
+		end = 1;
+	}
+	else
+	{
+		wc++;
+		win_3();
+	}
+}
+
+void win_4()
+{
+	int sum = 0;
+	int wc = 0;
+	sum = board[0][4] + board[1][3] + board[2][2] + board[1][3] + board[4][0];
+	if (sum / 5 == 79)
+	{
+		printf("당신의 승리 입니다.");
+		end = 1;
+	}
+
+	else if (sum / 5 == 88)
+	{
+		printf("컴퓨터의 승리입니다.");
+		end = 1;
+	}
+	else
+	{
+		wc++;
+		win_4();
+	}
+}
+
+com()
+{
+
 }
 
 int main(void)
@@ -105,6 +152,10 @@ int main(void)
 		{
 			play();
 			com();
+			win_1();
+			win_2();
+			win_3();
+			win_4();
 		}
 		break;
 	}
@@ -112,8 +163,12 @@ int main(void)
 	{
 		while (end = 1)
 		{
-			play();
 			com();
+			play();
+			win_1();
+			win_2();
+			win_3();
+			win_4();
 		}
 		break;
 	}
@@ -121,5 +176,5 @@ int main(void)
 		printf("프로그램을 종료합니다.");
 		break;
 	}
-
+	return 0;
 }

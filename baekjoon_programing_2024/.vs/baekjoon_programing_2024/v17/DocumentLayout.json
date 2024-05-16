@@ -14,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -24,7 +24,7 @@
               "RelativeDocumentMoniker": "baekjoon_programing_2024\\example1.c",
               "ToolTip": "C:\\Users\\kimdo\\Desktop\\C\uC5B8\uC5B4\\baekjoon_programing_2024\\baekjoon_programing_2024\\example1.c",
               "RelativeToolTip": "baekjoon_programing_2024\\example1.c",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAuwEAAAAACAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-05-14T09:41:26.393Z",
               "EditorCaption": ""
