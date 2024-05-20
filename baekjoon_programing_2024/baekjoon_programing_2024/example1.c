@@ -7,6 +7,8 @@
 int stop = 0;
 char board[5][5];
 int end = 0;
+int cc;
+int start;
 
 void play()
 {
@@ -27,16 +29,45 @@ void play()
 void com()
 {
 	int x, y;
-	printf("원하는 칸의 좌표를 입력하시오: ");
-	scanf("%d %d", &x, &y);
-	if (board[x][y] == 'X' || board[x][y] == 'O')
+	int nopl = 0;
+	if (start == 2)
 	{
-		printf("이미 선택된 구역입니다.\n");
-		play();
+		cc++;
+	}
+	if (0 <= cc && cc < 3)
+	{
+		x = rand() % 3 + 1;
+		srand((unsigned)time(NULL));
+		y = rand() % 3 + 1;
+		srand((unsigned)time(NULL));
+		if (board[x][y] == 'X' || board[x][y] == 'O')
+		{
+			com();
+			nopl++;
+		}
+		else
+		{
+			board[x][y] = 'X';
+			nopl = 0;
+		}
+		cc++;
 	}
 	else
 	{
-		board[x][y] = 'X';
+		x = rand() % 5;
+		srand((unsigned)time(NULL));
+		y = rand() % 5;
+		srand((unsigned)time(NULL));
+		nopl = 0;
+		if (board[x][y] == 'X' || board[x][y] == 'O')
+		{
+			com();
+		}
+		else
+		{
+			board[x][y] = 'X';
+		}
+		cc++;
 	}
 }
 
@@ -157,10 +188,10 @@ void draw()
 
 int main(void)
 {
-	int start, i, j;
+	int i, j;
 	stop = 0;
 	end = 0;
-	srand((unsigned)time(NULL));
+	cc = 0;
 	for (i = 0; i < 5; i++)
 	{
 		for (j = 0; j < 5; j++)
@@ -219,7 +250,6 @@ int main(void)
 			draw();
 			if (end == 1)
 				break;
-			printf("%d\n", end);
 		}
 		break;
 	}
