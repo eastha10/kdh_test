@@ -15,7 +15,12 @@ void play()
 	int x, y;
 	printf("원하는 칸의 좌표를 입력하시오: ");
 	scanf("%d %d", &x, &y);
-	if (board[x][y] == 'X' || board[x][y] == 'O')
+	if (x > 4 || x < 0 || y > 4 || y < 0)
+	{
+		printf("잘못된 좌표를 설정하였습니다.\n");
+		play();
+	}
+	else if (board[x][y] == 'X' || board[x][y] == 'O')
 	{
 		printf("이미 선택된 구역입니다.\n");
 		play();

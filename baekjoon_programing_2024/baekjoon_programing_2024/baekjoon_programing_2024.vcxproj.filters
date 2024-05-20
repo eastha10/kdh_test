@@ -18,7 +18,7 @@
     <ClCompile Include="example1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="example2.c">
+    <ClCompile Include="202412345_김동하_과제4.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

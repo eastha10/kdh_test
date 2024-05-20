@@ -1,0 +1,4 @@
+﻿  test1.c
+C:\Users\kimdo\Desktop\C언어\tester_project\tester_project\test1.c(44,9): warning C4013: 'cwf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\kimdo\Desktop\C언어\tester_project\tester_project\test1.c(87,9): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+  tester_project.vcxproj -> C:\Users\kimdo\Desktop\C언어\tester_project\x64\Debug\tester_project.exe
