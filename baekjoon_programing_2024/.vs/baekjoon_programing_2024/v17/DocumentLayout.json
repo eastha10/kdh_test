@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\kimdo\\Desktop\\C\uC5B8\uC5B4\\baekjoon_programing_2024\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F5C8601C-BD82-4E4D-A75B-C164E80723D9}|baekjoon_programing_2024\\baekjoon_programing_2024.vcxproj|C:\\Users\\kimdo\\Desktop\\C\uC5B8\uC5B4\\baekjoon_programing_2024\\baekjoon_programing_2024\\example1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F5C8601C-BD82-4E4D-A75B-C164E80723D9}|baekjoon_programing_2024\\baekjoon_programing_2024.vcxproj|solutionrelative:baekjoon_programing_2024\\example1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F5C8601C-BD82-4E4D-A75B-C164E80723D9}|baekjoon_programing_2024\\baekjoon_programing_2024.vcxproj|C:\\Users\\kimdo\\Desktop\\C\uC5B8\uC5B4\\baekjoon_programing_2024\\baekjoon_programing_2024\\202412345_\uAE40\uB3D9\uD558_\uACFC\uC81C4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F5C8601C-BD82-4E4D-A75B-C164E80723D9}|baekjoon_programing_2024\\baekjoon_programing_2024.vcxproj|solutionrelative:baekjoon_programing_2024\\202412345_\uAE40\uB3D9\uD558_\uACFC\uC81C4.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -19,15 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "example1.c",
+              "DocumentMoniker": "C:\\Users\\kimdo\\Desktop\\C\uC5B8\uC5B4\\baekjoon_programing_2024\\baekjoon_programing_2024\\example1.c",
+              "RelativeDocumentMoniker": "baekjoon_programing_2024\\example1.c",
+              "ToolTip": "C:\\Users\\kimdo\\Desktop\\C\uC5B8\uC5B4\\baekjoon_programing_2024\\baekjoon_programing_2024\\example1.c",
+              "RelativeToolTip": "baekjoon_programing_2024\\example1.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-05-24T06:53:18.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "202412345_\uAE40\uB3D9\uD558_\uACFC\uC81C4.c",
               "DocumentMoniker": "C:\\Users\\kimdo\\Desktop\\C\uC5B8\uC5B4\\baekjoon_programing_2024\\baekjoon_programing_2024\\202412345_\uAE40\uB3D9\uD558_\uACFC\uC81C4.c",
               "RelativeDocumentMoniker": "baekjoon_programing_2024\\202412345_\uAE40\uB3D9\uD558_\uACFC\uC81C4.c",
               "ToolTip": "C:\\Users\\kimdo\\Desktop\\C\uC5B8\uC5B4\\baekjoon_programing_2024\\baekjoon_programing_2024\\202412345_\uAE40\uB3D9\uD558_\uACFC\uC81C4.c",
               "RelativeToolTip": "baekjoon_programing_2024\\202412345_\uAE40\uB3D9\uD558_\uACFC\uC81C4.c",
-              "ViewState": "AQIAAPMAAAAAAAAAAAAAAA8BAAAKAAAA",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAAABgAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-05-20T13:18:05.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T13:18:05.829Z"
             }
           ]
         }

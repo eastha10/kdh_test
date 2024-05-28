@@ -31,6 +31,23 @@ void play()
 	}
 }
 
+int cwf(char player)
+{
+	int i, j;
+	for (i = 0; i < 5; i++)
+	{
+		if (board[i][0] == player && board[i][1] == player && board[i][2] == player && board[i][3] == player && board[i][4] == player)
+			return 1;
+		if (board[0][i] == player && board[1][i] == player && board[2][i] == player && board[3][i] == player && board[4][i] == player)
+			return 1;
+	}
+	if (board[0][0] == player && board[1][1] == player && board[2][2] == player && board[3][3] == player && board[4][4] == player)
+		return 1;
+	if (board[0][4] == player && board[1][3] == player && board[2][2] == player && board[3][1] == player && board[4][0] == player)
+		return 1;
+	return 0;
+}
+
 void com()
 {
 	int x, y;
@@ -82,23 +99,6 @@ void com()
 	}
 }
 
-int cwf(char player) 
-{
-	int i, j;
-	for (i = 0; i < 5; i++) 
-	{
-		if (board[i][0] == player && board[i][1] == player && board[i][2] == player && board[i][3] == player && board[i][4] == player)
-			return 1;
-		if (board[0][i] == player && board[1][i] == player && board[2][i] == player && board[3][i] == player && board[4][i] == player)
-			return 1;
-	}
-	if (board[0][0] == player && board[1][1] == player && board[2][2] == player && board[3][3] == player && board[4][4] == player)
-		return 1;
-	if (board[0][4] == player && board[1][3] == player && board[2][2] == player && board[3][1] == player && board[4][0] == player)
-		return 1;
-	return 0;
-}
-
 void printBoard(char board[5][5])
 {
 	for (int i = 0; i < 5; i++) {
@@ -134,7 +134,8 @@ void win_1()
 	}
 }
 
-void win_2() {
+void win_2()
+{
 	for (int wc = 0; wc < 5; wc++) 
 	{
 		int sumX = 0;

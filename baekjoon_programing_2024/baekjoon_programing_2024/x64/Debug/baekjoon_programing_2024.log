@@ -1,4 +1,2 @@
-﻿  202412345_김동하_과제4.c
-C:\Users\kimdo\Desktop\C언어\baekjoon_programing_2024\baekjoon_programing_2024\202412345_김동하_과제4.c(44,9): warning C4013: 'cwf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\kimdo\Desktop\C언어\baekjoon_programing_2024\baekjoon_programing_2024\202412345_김동하_과제4.c(87,9): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+﻿  example1.c
   baekjoon_programing_2024.vcxproj -> C:\Users\kimdo\Desktop\C언어\baekjoon_programing_2024\x64\Debug\baekjoon_programing_2024.exe
